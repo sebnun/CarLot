@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9EFB8E6F1CAB1ACA00A9F9BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFB8E6E1CAB1ACA00A9F9BD /* AppDelegate.swift */; };
+		9EFB8E711CAB1ACA00A9F9BD /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFB8E701CAB1ACA00A9F9BD /* Document.swift */; };
+		9EFB8E741CAB1ACA00A9F9BD /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EFB8E721CAB1ACA00A9F9BD /* Document.xib */; };
+		9EFB8E771CAB1ACA00A9F9BD /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9EFB8E751CAB1ACA00A9F9BD /* Document.xcdatamodeld */; };
+		9EFB8E791CAB1ACA00A9F9BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EFB8E781CAB1ACA00A9F9BD /* Assets.xcassets */; };
+		9EFB8E7C1CAB1ACA00A9F9BD /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EFB8E7A1CAB1ACA00A9F9BD /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9EFB8E6B1CAB1ACA00A9F9BD /* CarLot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarLot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EFB8E6E1CAB1ACA00A9F9BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9EFB8E701CAB1ACA00A9F9BD /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		9EFB8E731CAB1ACA00A9F9BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		9EFB8E761CAB1ACA00A9F9BD /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
+		9EFB8E781CAB1ACA00A9F9BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9EFB8E7B1CAB1ACA00A9F9BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		9EFB8E7D1CAB1ACA00A9F9BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9EFB8E681CAB1ACA00A9F9BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9EFB8E621CAB1ACA00A9F9BD = {
+			isa = PBXGroup;
+			children = (
+				9EFB8E6D1CAB1ACA00A9F9BD /* CarLot */,
+				9EFB8E6C1CAB1ACA00A9F9BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9EFB8E6C1CAB1ACA00A9F9BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9EFB8E6B1CAB1ACA00A9F9BD /* CarLot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EFB8E6D1CAB1ACA00A9F9BD /* CarLot */ = {
+			isa = PBXGroup;
+			children = (
+				9EFB8E6E1CAB1ACA00A9F9BD /* AppDelegate.swift */,
+				9EFB8E701CAB1ACA00A9F9BD /* Document.swift */,
+				9EFB8E721CAB1ACA00A9F9BD /* Document.xib */,
+				9EFB8E781CAB1ACA00A9F9BD /* Assets.xcassets */,
+				9EFB8E7A1CAB1ACA00A9F9BD /* MainMenu.xib */,
+				9EFB8E7D1CAB1ACA00A9F9BD /* Info.plist */,
+				9EFB8E751CAB1ACA00A9F9BD /* Document.xcdatamodeld */,
+			);
+			path = CarLot;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9EFB8E6A1CAB1ACA00A9F9BD /* CarLot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EFB8E801CAB1ACA00A9F9BD /* Build configuration list for PBXNativeTarget "CarLot" */;
+			buildPhases = (
+				9EFB8E671CAB1ACA00A9F9BD /* Sources */,
+				9EFB8E681CAB1ACA00A9F9BD /* Frameworks */,
+				9EFB8E691CAB1ACA00A9F9BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarLot;
+			productName = CarLot;
+			productReference = 9EFB8E6B1CAB1ACA00A9F9BD /* CarLot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9EFB8E631CAB1ACA00A9F9BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Sebastian;
+				TargetAttributes = {
+					9EFB8E6A1CAB1ACA00A9F9BD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 9EFB8E661CAB1ACA00A9F9BD /* Build configuration list for PBXProject "CarLot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9EFB8E621CAB1ACA00A9F9BD;
+			productRefGroup = 9EFB8E6C1CAB1ACA00A9F9BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9EFB8E6A1CAB1ACA00A9F9BD /* CarLot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9EFB8E691CAB1ACA00A9F9BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EFB8E791CAB1ACA00A9F9BD /* Assets.xcassets in Resources */,
+				9EFB8E741CAB1ACA00A9F9BD /* Document.xib in Resources */,
+				9EFB8E7C1CAB1ACA00A9F9BD /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9EFB8E671CAB1ACA00A9F9BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EFB8E771CAB1ACA00A9F9BD /* Document.xcdatamodeld in Sources */,
+				9EFB8E711CAB1ACA00A9F9BD /* Document.swift in Sources */,
+				9EFB8E6F1CAB1ACA00A9F9BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9EFB8E721CAB1ACA00A9F9BD /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EFB8E731CAB1ACA00A9F9BD /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		9EFB8E7A1CAB1ACA00A9F9BD /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9EFB8E7B1CAB1ACA00A9F9BD /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9EFB8E7E1CAB1ACA00A9F9BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9EFB8E7F1CAB1ACA00A9F9BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		9EFB8E811CAB1ACA00A9F9BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CarLot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.landab.CarLot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9EFB8E821CAB1ACA00A9F9BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CarLot/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.landab.CarLot;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9EFB8E661CAB1ACA00A9F9BD /* Build configuration list for PBXProject "CarLot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EFB8E7E1CAB1ACA00A9F9BD /* Debug */,
+				9EFB8E7F1CAB1ACA00A9F9BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EFB8E801CAB1ACA00A9F9BD /* Build configuration list for PBXNativeTarget "CarLot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9EFB8E811CAB1ACA00A9F9BD /* Debug */,
+				9EFB8E821CAB1ACA00A9F9BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9EFB8E751CAB1ACA00A9F9BD /* Document.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9EFB8E761CAB1ACA00A9F9BD /* Document.xcdatamodel */,
+			);
+			currentVersion = 9EFB8E761CAB1ACA00A9F9BD /* Document.xcdatamodel */;
+			path = Document.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9EFB8E631CAB1ACA00A9F9BD /* Project object */;
+}
