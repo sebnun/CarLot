@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9EFB3FE11CAC8D42006969F5 /* CarArrayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFB3FE01CAC8D42006969F5 /* CarArrayController.swift */; };
 		9EFB8E6F1CAB1ACA00A9F9BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFB8E6E1CAB1ACA00A9F9BD /* AppDelegate.swift */; };
 		9EFB8E711CAB1ACA00A9F9BD /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EFB8E701CAB1ACA00A9F9BD /* Document.swift */; };
 		9EFB8E741CAB1ACA00A9F9BD /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EFB8E721CAB1ACA00A9F9BD /* Document.xib */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9EFB3FE01CAC8D42006969F5 /* CarArrayController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarArrayController.swift; sourceTree = "<group>"; };
 		9EFB8E6B1CAB1ACA00A9F9BD /* CarLot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarLot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EFB8E6E1CAB1ACA00A9F9BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EFB8E701CAB1ACA00A9F9BD /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 				9EFB8E6E1CAB1ACA00A9F9BD /* AppDelegate.swift */,
 				9EFB8E701CAB1ACA00A9F9BD /* Document.swift */,
 				9EFB8E721CAB1ACA00A9F9BD /* Document.xib */,
+				9EFB3FE01CAC8D42006969F5 /* CarArrayController.swift */,
 				9EFB8E781CAB1ACA00A9F9BD /* Assets.xcassets */,
 				9EFB8E7A1CAB1ACA00A9F9BD /* MainMenu.xib */,
 				9EFB8E7D1CAB1ACA00A9F9BD /* Info.plist */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EFB3FE11CAC8D42006969F5 /* CarArrayController.swift in Sources */,
 				9EFB8E771CAB1ACA00A9F9BD /* Document.xcdatamodeld in Sources */,
 				9EFB8E711CAB1ACA00A9F9BD /* Document.swift in Sources */,
 				9EFB8E6F1CAB1ACA00A9F9BD /* AppDelegate.swift in Sources */,
@@ -291,6 +295,7 @@
 				9EFB8E821CAB1ACA00A9F9BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
